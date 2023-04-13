@@ -31,7 +31,7 @@ results = count_contracts_and_functions_in_directory('./Smart_Contracts')
 for file_name, counts in results.items():
     print(f"{file_name}: contracts={counts['contracts']}, functions={counts['functions']}")
 
-with open('./matrix_data/contract_count_ndf.csv', mode='w') as file:
+with open('./matrix_data/contract_count_ndc.csv', mode='w') as file:
     writer = csv.writer(file)
     writer.writerow(['Contracts'])
     for file_name, counts in results.items():
