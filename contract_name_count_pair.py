@@ -27,10 +27,10 @@ for filename in os.listdir(directory):
 sorted_contracts = sorted(contract_counts.items(), key=lambda x: x[1], reverse=True)
 
 # Write the list of contracts and their reference counts to a file
-with open("contract_counts2.txt", "w") as file:
+with open("contract_names_counts2.txt", "w") as file:
     for contract, count in sorted_contracts:
         file.write(f"{contract}: {count}\n")
 
-with open("contract_counts2.csv", "w") as file:
+with open("contract_names_counts2.csv", "w") as file:
     for contract, count in sorted_contracts:
         file.write(f"{count}\n")
