@@ -21,6 +21,7 @@ It also produces statistics(avg,var,median,std deviation,min,max) on screen.
 
 bytecode_length_stats finder.py - It uses bytecode_length.csv and store the statistics in bytecode_length_stats.txt
 
+balance.csv and transaction.csv are fetched from googlebigquery by writing queries for balance and transaction respectively.
 CCDF_balance.py-It uses balance.csv file to produce Complementary Cumulative Distribution Function(CCDF) graph based on balance.
 CCDF_transaction.py- It uses transactio.csv to produce CCDF graph based on transations.
 
