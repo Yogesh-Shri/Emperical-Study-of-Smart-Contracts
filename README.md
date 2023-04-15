@@ -6,7 +6,7 @@ json_to_sol.py - It converts the json files to sol files.
 
 versionfinder.py- It finds alll of the compiler version that are used in json files and store in two files
 1. version.csv(Contains only Count)
-2. version2.csv(Contains version Name, Coount)
+2. version2.csv(Contains version Name, Count)
 
 contract_name_count_pair.py - It finds the name of contract and coount from the json file and store in a txt file and csv file stores just the count.
 
