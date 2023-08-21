@@ -1,4 +1,4 @@
-# SC1-Emperical-Study-Group6
+# Emperical-Study-of-Smart-Contracts
 address_to_json.py - It fetches the sol files of contract from etherscan using the public address of contracts present in contract.csv.
 
 
